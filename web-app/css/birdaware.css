@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+}
+
+body { 
+  height: 100%; 
+  padding: 0;
+  overflow: hidden;
+}
+
+#query-panel {
+  width: 100%;
+  min-width: 720px;
+  padding-top: 10px;
+  height: 182px;
+  background-color: #e3e3e3;
+  display: all;
+  position: relative;
+}
+ 
+#ajax-loader {
+  position: absolute; 
+  left:112px; 
+  top: 40px;
+  display: none; 
+}
+
+.map-search {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  padding-left: 30px;
+  background-position: 8px 6px;
+  background: url("../img/icon_search.png") no-repeat scroll .75em 12px white;
+  border-radius: 24px;
+  border: 1px solid #aaaaaa;
+}
+
+input[type="text"] {
+  height: 38px;
+  width: 260px;
+  line-height: 28px;
+  padding: 0;
+  margin-left: 4px;
+  font-size: 16px;
+  background-color: #fff;
+  outline: none;
+  border:none !important;
+  box-shadow:none !important;
+}
+
+.btn-clear-search{
+  position:absolute;
+  top:8px;
+  right:8px;
+  width:22px;
+  height:20px;
+  background-image:url("../img/icon_remove.png");
+  background-position:0 2px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  display: none;
+}
+
+.btn-clear-search:hover{
+  cursor:pointer;
+  background-position:0 -48px
+}
+
+.non-empty {
+  display: inline;
+}
+
+.x-close {
+  margin-top: 140px;
+  margin-left: 6px;
+  padding: 10px;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  color: #606060;
+}
+
+.x-close:hover {
+  color: black;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 10; 
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;  
+  border-top: 14px solid #606060;
+  margin-top: 5px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+.arrow-down:hover {
+  border-top: 14px solid black;
+}
+
+.navbar-noncollapse {
+  width: 600px;
+}
+
+#map-canvas {
+  height: 100%;
+  border: 1px solid rgba(102,102,102, 0.50);
+}
+
+/* fix problem with bootstrap and google map images*/
+#map-canvas img {
+  max-width: none;
+}
+
+.sightings-panel
+{
+  border-top: 1px solid rgba(102,102,102, 0.50);
+  max-height: none;
+  background: #EAF5FB;
+  float:left;
+  height: 100%;
+  width:270px; 
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+.sightings-content-inner {
+  padding: 10px 3px 3px 5px;
+  height: 70%;
+  overflow: auto;
+}
+
+.balogo {
+  float: left;
+}
+
+.eblink {
+  float: right;
+}
+
+.ebird-logo {
+  letter-spacing: -1px;
+  font-size: 36px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  color: black;
+  padding: 3px 3px 0 0;
+  cursor: pointer;
+}
+
+form {
+  margin: 0 0 10px;
+}
+
+.form-horizontal .control-group {
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+.qform {
+  float: left;
+}
+
+.ebird-logo:hover {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+.ebgreen {
+  color: green;
+}
+
+.about {
+  margin-top: 40px;
+}
+
