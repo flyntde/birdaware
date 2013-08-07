@@ -1,6 +1,5 @@
 <div id="page">
   <div class="sightings-panel">
-
     <div title="Show panel" id="show-panel"></div>
     <img src="img/gif-load.gif" id="ajax-loader"/>
     <div class="sightings-content-inner">

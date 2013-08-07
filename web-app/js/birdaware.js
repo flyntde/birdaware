@@ -94,7 +94,6 @@ var nearbyRecentObservations = function(options) {
         var marker = new google.maps.Marker({
           position: myLatLng,
           map: map,
-          icon: 'images/bamarker2.png',
           title: data.comName + ": " + data.obsDt
         });
 
