@@ -63,8 +63,7 @@
 </div>
 <!-- script section -->
 <g:render template="defer-script" />
-<script src="js/birdawareMap.js"></script>
-<script src="js/birdawarespp.js"></script>
+<script src="js/birdawarespp.min.js"></script>
 <script>
 (function() {
   query_ebird({

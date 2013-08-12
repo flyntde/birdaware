@@ -15,8 +15,7 @@
 <g:render template="sightings" />
 <!-- script section -->
 <g:render template="defer-script" />
-<script src="js/birdawareMap.js"></script>
-<script src="js/birdaware.js"></script>
+<script src="js/birdaware.min.js"></script>
 <script>
 (function() {
   nearbyRecentObservations({

@@ -115,6 +115,7 @@ var query_ebird = function(options) {
     });
   };
 
+  // twitter bootstrap typeahead
   $('.typeahead').typeahead({
     source: function (query, process) {
       var data = [];
