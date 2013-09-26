@@ -1,9 +1,5 @@
 birdaware
 =========
+BirdAware.com Grails Application.  Uses eBird.org JSON REST API to provide a few useful bird finding queries.
 
-birdaware source
-
-birdaware.js -- used by nearbyrecent and notablenearbyrecent queries
-birdawareMap.js -- some google map functions used by birdaware.js and birdawareSpp.js
-birdawareSpp.js -- used by nearbyrecentspp query
 
